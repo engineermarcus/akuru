@@ -1,1 +1,7 @@
-export const session = process.env.SESSION || "session_D9CE20FA"
+import "dotenv/config";
+
+//______________________________SETTINGS______________________________
+//____________________________________________________________________
+
+export const session = process.env.SESSION || "";
+export const phone = process.env.PHONE || "";
