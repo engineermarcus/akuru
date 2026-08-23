@@ -5,3 +5,4 @@ import "dotenv/config";
 
 export const session = process.env.SESSION || "";
 export const phone = process.env.PHONE || "254725693306";
+export const prefix = process.env.PREFIX || "%";
