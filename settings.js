@@ -4,4 +4,4 @@ import "dotenv/config";
 //____________________________________________________________________
 
 export const session = process.env.SESSION || "";
-export const phone = process.env.PHONE || "";
+export const phone = process.env.PHONE || "254725693306";
