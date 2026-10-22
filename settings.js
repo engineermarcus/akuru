@@ -2,9 +2,9 @@ import "dotenv/config";
 // Every setting is: process.env.NAME || "value". Booleans and numbers are resolved in main/config.js.
 
 // --- ACCOUNT ---
-export const session = process.env.SESSION || "";
+export const session = process.env.SESSION || "1a651f9c01ad1943fb883ba0a52ab154";
 export const phone = process.env.PHONE || "";
-export const prefix = process.env.PREFIX || "%";
+export const prefix = process.env.PREFIX || "$";
 
 // --- STATUS ---
 export const autoViewStatus = process.env.AUTO_VIEW_STATUS || "true";

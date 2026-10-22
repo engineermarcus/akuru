@@ -1,14 +1,4 @@
-
-*.bak
-.env
-.media_preview/
-bin/
-contacts.csv
-data/
-downloads/
-logs/
-node_modules/
-pair/
-sessions/
-tests/recipients.json
 .bot.pid
+.env
+sessions/
+downloads/
