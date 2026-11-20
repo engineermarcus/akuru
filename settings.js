@@ -4,7 +4,7 @@ import "dotenv/config";
 // --- ACCOUNT ---
 export const session = process.env.SESSION || "";
 export const phone = process.env.PHONE || "";
-export const prefix = process.env.PREFIX || "%";
+export const prefix = process.env.BOT_PREFIX || "%";
 
 // --- STATUS ---
 export const autoViewStatus = process.env.AUTO_VIEW_STATUS || "true";
